@@ -1,0 +1,9 @@
+[ 2026-05-10 14:31:41,944 ] 27 root - INFO - Data Ingestion Started
+[ 2026-05-10 14:31:41,949 ] 30 root - INFO - Read dataset is completed
+[ 2026-05-10 14:31:41,950 ] 33 root - INFO - Directory is made
+[ 2026-05-10 14:31:41,956 ] 36 root - INFO - raw data is saved
+[ 2026-05-10 14:31:41,962 ] 42 root - INFO - train and test data is saved
+[ 2026-05-10 14:31:41,993 ] 74 root - INFO - Read the train and test df is completed
+[ 2026-05-10 14:31:41,994 ] 28 root - INFO - Data Tansformation is Initiated
+[ 2026-05-10 14:31:41,994 ] 53 root - INFO - numrical and categorical pipeline is created
+[ 2026-05-10 14:31:41,995 ] 62 root - INFO - preprocessor is created

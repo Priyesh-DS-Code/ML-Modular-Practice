@@ -1,0 +1,5 @@
+[ 2026-05-09 20:09:19,124 ] 24 root - INFO - Data Ingestion Started
+[ 2026-05-09 20:09:19,161 ] 27 root - INFO - Read dataset is completed
+[ 2026-05-09 20:09:19,161 ] 30 root - INFO - Directory is made
+[ 2026-05-09 20:09:19,170 ] 33 root - INFO - raw data is saved
+[ 2026-05-09 20:09:19,178 ] 39 root - INFO - train and test data is saved
