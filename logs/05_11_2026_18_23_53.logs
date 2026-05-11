@@ -1,0 +1,12 @@
+[ 2026-05-11 18:23:55,630 ] 30 root - INFO - Data Ingestion Started
+[ 2026-05-11 18:23:55,696 ] 33 root - INFO - Read dataset is completed
+[ 2026-05-11 18:23:55,697 ] 36 root - INFO - Directory is made
+[ 2026-05-11 18:23:55,706 ] 39 root - INFO - raw data is saved
+[ 2026-05-11 18:23:55,715 ] 45 root - INFO - train and test data is saved
+[ 2026-05-11 18:23:55,785 ] 74 root - INFO - Read the train and test df is completed
+[ 2026-05-11 18:23:55,785 ] 28 root - INFO - Data Tansformation is Initiated
+[ 2026-05-11 18:23:55,785 ] 53 root - INFO - numrical and categorical pipeline is created
+[ 2026-05-11 18:23:55,786 ] 62 root - INFO - preprocessor is created
+[ 2026-05-11 18:23:55,821 ] 89 root - INFO - train and test df is transformed
+[ 2026-05-11 18:23:55,827 ] 99 root - INFO - Saaved the object in pickle file
+[ 2026-05-11 18:23:55,827 ] 37 root - INFO - Train Test is Splited

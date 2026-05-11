@@ -1,0 +1,17 @@
+[ 2026-05-11 18:28:23,156 ] 30 root - INFO - Data Ingestion Started
+[ 2026-05-11 18:28:23,194 ] 33 root - INFO - Read dataset is completed
+[ 2026-05-11 18:28:23,194 ] 36 root - INFO - Directory is made
+[ 2026-05-11 18:28:23,199 ] 39 root - INFO - raw data is saved
+[ 2026-05-11 18:28:23,208 ] 45 root - INFO - train and test data is saved
+[ 2026-05-11 18:28:23,234 ] 74 root - INFO - Read the train and test df is completed
+[ 2026-05-11 18:28:23,235 ] 28 root - INFO - Data Tansformation is Initiated
+[ 2026-05-11 18:28:23,235 ] 53 root - INFO - numrical and categorical pipeline is created
+[ 2026-05-11 18:28:23,236 ] 62 root - INFO - preprocessor is created
+[ 2026-05-11 18:28:23,254 ] 89 root - INFO - train and test df is transformed
+[ 2026-05-11 18:28:23,259 ] 99 root - INFO - Saaved the object in pickle file
+[ 2026-05-11 18:28:23,259 ] 37 root - INFO - Train Test is Splited
+[ 2026-05-11 18:28:25,552 ] 50 root - INFO - All Models r2 score is calculated
+[ 2026-05-11 18:28:25,553 ] 54 root - INFO - found the best model score
+[ 2026-05-11 18:28:25,553 ] 58 root - INFO - found the best model name
+[ 2026-05-11 18:28:25,553 ] 62 root - INFO - found the best model 
+[ 2026-05-11 18:28:25,553 ] 66 root - INFO - Best found model on both training and test dataset

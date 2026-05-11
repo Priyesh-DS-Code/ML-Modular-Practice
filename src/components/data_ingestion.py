@@ -7,6 +7,9 @@ from src.exception import CustomException
 from src.components.data_transformation import DataTransformationConfig
 from src.components.data_transformation import DataTransformation
 
+from src.components.model_trainer import ModelTrainer
+from src.components.model_trainer import ModelTrainerconfig
+
 import pandas as pd
 
 from sklearn.model_selection import train_test_split
@@ -55,7 +58,12 @@ if __name__=='__main__':
     train_path, test_path=obj.InitiateDataIngestion()
 
     data_transformation=DataTransformation()
-    data_transformation.InitiateDataIngestion(train_path=train_path, test_path=test_path)
+    train_array,test_array,_=data_transformation.InitiateDataIngestion(train_path=train_path, test_path=test_path)
+
+    model_trainer=ModelTrainer()
+    best_model_name, model_r2_score=model_trainer.InitiateModelTrainer(train_array=train_array, test_array=test_array)
+    print(f"Best Model: {best_model_name}")
+    print(f"r2 Score: {model_r2_score}")
 
 
 
