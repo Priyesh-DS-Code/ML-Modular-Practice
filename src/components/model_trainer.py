@@ -19,13 +19,13 @@ from src.exception import CustomException
 from src.utils import save_object, evaluate_models
 
 @dataclass
-class ModelTrainerconfig:
+class ModelTrainerConfig:
     trained_model_file_path=os.path.join('artifacts', 'model.pkl')
 
 class ModelTrainer:
     try:
         def __init__(self):
-            self.model_trainer_config=ModelTrainerconfig()
+            self.model_trainer_config=ModelTrainerConfig()
 
         def InitiateModelTrainer(self, train_array, test_array):
             X_train, y_train, X_test, y_test=(
