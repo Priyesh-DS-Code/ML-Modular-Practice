@@ -4,11 +4,14 @@ import sys
 from src.logger import logging
 from src.exception import CustomException
 
-from src.components.data_transformation import DataTransformationConfig
 from src.components.data_transformation import DataTransformation
+from src.components.data_transformation import DataTransformationConfig
 
 from src.components.model_trainer import ModelTrainer
 from src.components.model_trainer import ModelTrainerConfig
+
+from src.components.model_hyperparameter_tunning import ModelHyperparameterTunningConfig
+from src.components.model_hyperparameter_tunning import ModelHyperparameterTunning
 
 import pandas as pd
 
@@ -63,7 +66,13 @@ if __name__=='__main__':
     model_trainer=ModelTrainer()
     best_model_name, model_r2_score=model_trainer.InitiateModelTrainer(train_array=train_array, test_array=test_array)
     print(f"Best Model: {best_model_name}")
-    print(f"r2 Score: {model_r2_score}")
+    print(f"Model Accuracy: {model_r2_score}")
+
+    hyperpara_model=ModelHyperparameterTunning()
+    best_model_name, model_r2_score=hyperpara_model.InitiateHyperparaModelTrainer(train_array=train_array, test_array=test_array)
+    print(f"Best Hyperparameter Tunned Model: {best_model_name}")
+    print(f"Model Accuracy: {model_r2_score}")
+
 
 
 
